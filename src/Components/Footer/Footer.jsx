@@ -1,7 +1,9 @@
+import { Link } from 'react-router-dom';
+
 function Footer() {
   return (
     <footer className="footer">
-      <h2 className="footer__title">© PROSEPT</h2>
+      <Link to='/' className="footer__logo">© PROSEPT</Link>
     </footer>
   )
 }
