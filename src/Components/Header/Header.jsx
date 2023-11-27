@@ -5,7 +5,7 @@ function Header() {
 
   return (
     <header className="header">
-      <h2 className="header__logo">PROSEPT</h2>
+      <Link to='/' className="header__logo">PROSEPT</Link>
       {location === '/users/create/' &&
         <Link to='/users/login/' className="header__link">Войти</Link>}
       {location === '/users/login/' &&

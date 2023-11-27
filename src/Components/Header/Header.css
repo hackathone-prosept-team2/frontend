@@ -7,12 +7,19 @@
 }
 
 .header__logo {
+  color: #FFFFFF;
+  text-decoration: none;
   font-family: 'Montserrat', 'sans-serif';
   font-size: 36px;
   font-style: normal;
   font-weight: 900;
   line-height: normal;
   margin: 25px 0 0 30px;
+  cursor: pointer;
+}
+
+.header__logo:hover {
+  opacity: .5;
 }
 
 .header__link {
