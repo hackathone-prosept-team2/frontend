@@ -14,7 +14,6 @@ function Header() {
         <Link to='/logout' className="header__link">Выйти</Link>}
     </header>
   )
-
 }
 
 export default Header;

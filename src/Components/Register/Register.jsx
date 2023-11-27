@@ -70,7 +70,6 @@ function Register() {
           </>
         }
       </section>
-      <Footer/>
     </>
 
   )

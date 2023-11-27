@@ -9,5 +9,11 @@
 
 @import url(./Components/Register/Register.css);
 
+@import url(./Components/Main/Main.css);
+@import url(./Components/Main/Form/Form.css);
+@import url(./Components/Main/List/List.css);
+@import url(./Components/Main/Card/Card.css);
+
+
 @import url(./Components/Footer/Footer.css);
 
