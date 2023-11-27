@@ -13,7 +13,6 @@ function Main() {
           <List/>
           <Card/>
         </section>
-
       </main>
     </>
 
