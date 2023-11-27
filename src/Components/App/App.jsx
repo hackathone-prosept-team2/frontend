@@ -5,7 +5,6 @@ import Footer from '../Footer/Footer.jsx';
 function App() {
   return (
     <div className="app">
-
       <Main/>
       <Footer/>
     </div>
