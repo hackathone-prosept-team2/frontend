@@ -1,15 +1,16 @@
 .card {
+  max-width: 60%;
   margin: 50px 100px 50px 0;
 }
 
 .card__title {
   font-family: 'Montserrat', 'sans-serif';
-  font-size: 18px;
+  font-size: 36px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   border-bottom: 2px #363535 solid;
-  margin: 0 0 15px;
+  margin: 0 0 25px;
 }
 
 .card__container {
@@ -19,17 +20,16 @@
 
 .card__subtitle {
   font-family: 'Montserrat', 'sans-serif';
-  font-size: 16px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  margin: 0 0 20px 0;
-  max-width: 500px;
+  margin: 0 0 25px 0;
 }
 
 .card__image {
-  width: 150px;
-  height: 200px;
+  width: 30%;
+  height: 30%;
 }
 
 .card__price {
