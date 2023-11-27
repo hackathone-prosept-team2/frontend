@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Команда №2| Хакатон. Просепт
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. Мудрова Виктория
+2. Атаров Руслан
+3. Закиев Владислав
+4. Суховенко Линда
+5. Таланов Максим
+6. Султанов Султан
+7. Шулев Кирилл
+8. Барков Павел
 
-## Available Scripts
+# ссылка на приложение:
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# инструкция по сборке и запуску:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+В каталоге проекта вы можете запустить:
 
-### `npm test`
+npm start
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Запускает приложение в режиме разработки.
+Откройте http://localhost:3000, чтобы просмотреть его в браузере.
 
-### `npm run build`
+Страница перезагрузится, когда вы внесете изменения.
+Вы также можете увидеть любые ошибки в ворса в консоли.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm test
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Запускает тестовый бегун в режиме интерактивных часов.
+См. раздел о запуске тестов для получения дополнительной информации.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm run build
 
-### `npm run eject`
+Создает приложение для производства в папку build.
+Он правильно объединяет React в производственном режиме и оптимизирует сборку для лучшей производительности.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Сборка минимифицирована, и имена файлов включают хэши.
+Ваше приложение готово к развертыванию!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+См. раздел о развертывании для получения дополнительной информации.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# стэк технологий:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. React
+2. CRA
+3. React Router
+4. Redux
+5. 
 
-## Learn More
+# ссылки на фреймворки, библиотеки, иконки и шрифты:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- фреймворки:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- библиотеки:
+1. React https://react.dev
 
-### Code Splitting
+- иконки:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- шрифты:
+1. Montserrat: https://fonts.google.com/specimen/Montserrat
