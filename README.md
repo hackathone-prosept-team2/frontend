@@ -56,6 +56,7 @@ npm run build
 1. React https://react.dev
 
 - иконки:
+1. https://prosept.ru/personal/private/#
 
 - шрифты:
 1. Montserrat: https://fonts.google.com/specimen/Montserrat
