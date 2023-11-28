@@ -1,20 +1,14 @@
 .header {
   display: flex;
   justify-content: space-between;
-  height: 80px;
-  border-bottom: 2px #363535 solid;
   margin: 0 100px;
 }
 
 .header__logo {
-  color: #FFFFFF;
-  text-decoration: none;
-  font-family: 'Montserrat', 'sans-serif';
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: normal;
-  margin: 25px 0 0 30px;
+  background-image: url("../../image/header__logo.svg");
+  width: 140px;
+  height: 110px;
+  margin: 15px 0 0 30px;
   cursor: pointer;
 }
 
@@ -22,23 +16,42 @@
   opacity: .5;
 }
 
-.header__link {
+.header__container {
+  background: linear-gradient(90deg, rgba(56,164,58,1) 0%, rgba(0,183,234,1) 100%);
+  border-radius: 25px;
+  box-sizing: border-box;
+  height: 56px;
+  margin: 30px 30px 0 0;
+}
+
+.header__links {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #FFFFFF;
+  position: relative;
+  border: 3px solid transparent;
+  border-radius: 25px;
+  background: #FFF;
+  background-clip: padding-box;
+  width: 150px;
+  height: 35px;
+  padding: 8px;
+}
+
+.header__links:hover {
+  background: linear-gradient(90deg, rgba(56,164,58,1) 1%, rgba(0,183,234,1) 100%);
+}
+
+.header__link {
+  font-size: 18px;
+  color: #222;
   text-decoration: none;
   font-family: 'Montserrat', 'sans-serif';
-  font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  background-color: #363535;
   border: none;
   border-radius: 20px;
-  width: 150px;
-  height: 35px;
-  margin: 30px 30px 0 0;
   cursor: pointer;
 }
 

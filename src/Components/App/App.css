@@ -1,8 +1,8 @@
 .app {
-  background-color: #202020;
+  background-color: #fff;
   font-family: 'Montserrat', 'Arial', 'sans-serif';
   min-width: 320px;
   min-height: 100vh;
-  color: #FFFFFF;
+  color: #333;
   margin: 0;
 }
