@@ -5,8 +5,8 @@ import Footer from '../Footer/Footer.jsx';
 function App() {
   return (
     <div className="app">
+      <Register/>
 
-      <Main/>
       <Footer/>
     </div>
   )

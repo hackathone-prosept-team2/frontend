@@ -6,6 +6,7 @@
 }
 
 .register__title {
+  color: rgb(56, 164, 58);
   font-family: 'Montserrat', 'sans-serif';
   font-size: 26px;
   font-style: normal;
@@ -22,15 +23,15 @@
 .register__fieldset {
   display: flex;
   flex-direction: column;
-  width: 350px;
+  width: 550px;
   border: none;
   padding: 0;
 }
 
 .register__label {
-  color: #9b9898;
+  color: #5a6c77;
   font-family: 'Montserrat', 'sans-serif';
-  font-size: 12px;
+  font-size: 13px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -38,11 +39,11 @@
 }
 
 .register__input {
-  height: 45px;
-  border-radius: 10px;
-  border: none;
+  border: 1px solid #ccd5db;
+  background: #f8fafc;
+  height: 38px;
   outline: none;
-  font-size: 16px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -57,7 +58,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  background-color: #363535;
+  background: linear-gradient(90deg, rgba(56,164,58,1) 1%, rgba(0,183,234,1) 100%);
   border: none;
   border-radius: 40px;
   width: 300px;
@@ -79,7 +80,9 @@
 }
 
 .register__link {
-  color: #FFFFFF;
+  background: linear-gradient(90deg, rgba(56,164,58,1) 0%, rgba(0,183,234,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 16px;
   text-decoration: none;
 }
