@@ -1,11 +1,10 @@
 @font-face {
-  font-family: 'Montserrat';
+  font-family: 'DIN Pro';
   font-style:  normal;
   font-weight: 900;
   font-display: swap;
-  src: url("fonts/MontserratExtraBold/MontserratExtraBold.woff") format("woff"),
-  url("fonts/MontserratExtraBold/MontserratExtraBold.eot") format("eot"),
-  url("fonts/MontserratExtraBold/MontserratExtraBold.ttf") format("ttf");
+  src: url("fonts/dinpro_condensedblack.otf") format("otf"),
+  url("fonts/dinpro_condensedblackitalic.otf") format("otf");
 }
 
 @font-face {

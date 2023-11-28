@@ -9,7 +9,7 @@ function Main() {
       <Header/>
       <main className="main">
         <Form/>
-        <section className="container">
+        <section className="main__container">
           <List/>
           <Card/>
         </section>

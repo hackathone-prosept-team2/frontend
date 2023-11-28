@@ -1,7 +1,6 @@
 import { Link, useLocation } from 'react-router-dom';
 
 import Header from '../Header/Header.jsx';
-import Footer from '../Footer/Footer.jsx';
 
 function Register() {
   const location = useLocation().pathname;
@@ -34,7 +33,7 @@ function Register() {
                   required
                 />
               </fieldset>
-              <button className="register__btn">Зарегистрироваться</button>
+              <button className="btn">Зарегистрироваться</button>
             </form>
             <p className="register__text">Уже зарегистрированы?
               <Link to="/users/login/" className="register__link"> Войти</Link>
@@ -65,7 +64,7 @@ function Register() {
                   required
                 />
               </fieldset>
-              <button className="register__btn">Войти</button>
+              <button className="btn">Войти</button>
             </form>
           </>
         }

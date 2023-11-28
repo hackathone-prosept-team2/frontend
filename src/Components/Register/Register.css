@@ -7,7 +7,6 @@
 
 .register__title {
   color: rgb(56, 164, 58);
-  font-family: 'Montserrat', 'sans-serif';
   font-size: 26px;
   font-style: normal;
   font-weight: 700;
@@ -30,7 +29,6 @@
 
 .register__label {
   color: #5a6c77;
-  font-family: 'Montserrat', 'sans-serif';
   font-size: 13px;
   font-style: normal;
   font-weight: 500;
@@ -51,28 +49,7 @@
   margin: 0;
 }
 
-.register__btn {
-  color: #FFFFFF;
-  font-family: 'Montserrat', 'sans-serif';
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  background: linear-gradient(90deg, rgba(56,164,58,1) 1%, rgba(0,183,234,1) 100%);
-  border: none;
-  border-radius: 40px;
-  width: 300px;
-  height: 60px;
-  margin: 75px 0 20px;
-  cursor: pointer;
-}
-
-.register__btn:hover {
-  opacity: .5;
-}
-
 .register__text {
-  font-family: 'Montserrat', 'sans-serif';
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
