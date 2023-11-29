@@ -1,40 +1,17 @@
 .header {
   display: flex;
   justify-content: space-between;
-  height: 80px;
-  border-bottom: 2px #363535 solid;
   margin: 0 100px;
 }
 
 .header__logo {
-  font-family: 'Montserrat', 'sans-serif';
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: normal;
-  margin: 25px 0 0 30px;
-}
-
-.header__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #FFFFFF;
-  text-decoration: none;
-  font-family: 'Montserrat', 'sans-serif';
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  background-color: #363535;
-  border: none;
-  border-radius: 20px;
-  width: 150px;
-  height: 35px;
-  margin: 30px 30px 0 0;
+  background-image: url("../../image/header__logo.svg");
+  width: 140px;
+  height: 110px;
+  margin: 15px 0 0 30px;
   cursor: pointer;
 }
 
-.header__btn:hover {
+.header__logo:hover {
   opacity: .5;
 }

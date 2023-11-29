@@ -6,7 +6,7 @@
 }
 
 .register__title {
-  font-family: 'Montserrat', 'sans-serif';
+  color: rgb(56, 164, 58);
   font-size: 26px;
   font-style: normal;
   font-weight: 700;
@@ -22,15 +22,14 @@
 .register__fieldset {
   display: flex;
   flex-direction: column;
-  width: 350px;
+  width: 550px;
   border: none;
   padding: 0;
 }
 
 .register__label {
-  color: #9b9898;
-  font-family: 'Montserrat', 'sans-serif';
-  font-size: 12px;
+  color: #5a6c77;
+  font-size: 13px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -38,11 +37,11 @@
 }
 
 .register__input {
-  height: 45px;
-  border-radius: 10px;
-  border: none;
+  border: 1px solid #ccd5db;
+  background: #f8fafc;
+  height: 38px;
   outline: none;
-  font-size: 16px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -50,28 +49,7 @@
   margin: 0;
 }
 
-.register__btn {
-  color: #FFFFFF;
-  font-family: 'Montserrat', 'sans-serif';
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  background-color: #363535;
-  border: none;
-  border-radius: 40px;
-  width: 300px;
-  height: 60px;
-  margin: 75px 0 20px;
-  cursor: pointer;
-}
-
-.register__btn:hover {
-  opacity: .5;
-}
-
 .register__text {
-  font-family: 'Montserrat', 'sans-serif';
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -79,7 +57,9 @@
 }
 
 .register__link {
-  color: #FFFFFF;
+  background: linear-gradient(90deg, rgba(56,164,58,1) 0%, rgba(0,183,234,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 16px;
   text-decoration: none;
 }

@@ -1,0 +1,36 @@
+.list {
+  max-width: 40%;
+  margin: 0 0 0 100px;
+}
+
+.list__title {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-bottom: 2px #363535 solid;
+  margin: 0 0 15px;
+}
+
+.list__container {
+  display: flex;
+  column-gap: 30px;
+}
+
+.list__subtitle {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.list__item {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  list-style-type: none;
+  margin: 10px 0;
+}

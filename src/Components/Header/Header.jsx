@@ -5,16 +5,22 @@ function Header() {
 
   return (
     <header className="header">
-      <h2 className="header__logo">PROSEPT</h2>
-      {location === '/users/create/' &&
-        <Link to='/users/login/' className="header__link">Войти</Link>}
-      {location === '/users/login/' &&
-        <Link to='/users/create/' className="header__link">Регистрация</Link>}
-      {location === '/' &&
-        <Link to='/logout' className="header__link">Выйти</Link>}
+      <Link to='/' className="header__logo"></Link>
+      <div className="container">
+        <div className="links">
+          {location === '/users/create/' &&
+            <Link to='/users/login/' className="link">Войти</Link>}
+          {location === '/users/login/' &&
+            <Link to='/users/create/' className="link">Регистрация</Link>}
+          {location === '/' &&
+            <Link to='/logout' className="link">Выйти</Link>}
+          {location === '/logout' &&
+            <Link to='/users/login/' className="link">Войти</Link>}
+        </div>
+      </div>
+
     </header>
   )
-
 }
 
 export default Header;
