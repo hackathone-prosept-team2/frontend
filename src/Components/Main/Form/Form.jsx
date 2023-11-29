@@ -14,6 +14,7 @@ function Form() {
             />
             <button className="btn form__btn">Найти</button>
           </div>
+
           <div className="form__container">
             <button
               className="btn form__container-btn"
@@ -21,12 +22,14 @@ function Form() {
               aria-label="yes">
               Да
             </button>
+
             <button
               className="btn form__container-btn"
               type="submit"
               aria-label="no">
               Нет
             </button>
+            
             <button
               className="btn form__container-btn"
               type="submit"
