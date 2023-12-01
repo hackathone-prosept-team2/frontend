@@ -1,11 +1,14 @@
 import { Link, useLocation } from 'react-router-dom';
+import { Logotype } from "Ui-Kit"
 
 function Header() {
   const location = useLocation().pathname;
 
   return (
     <header className="header">
-      <Link to='/' className="header__logo"></Link>
+      <Link to='/'>
+        <Logotype />
+      </Link>
       <div className="container">
         <div className="links">
           {location === '/users/create/' &&
