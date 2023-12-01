@@ -10,18 +10,20 @@ function App() {
       <Route
         path={Routers.DEFAULT.path}
         element={
-          <ProtectedRouter component={
-            <HomePage title={Routers.DEFAULT.title}/>
-          }/>
+          <ProtectedRouter 
+            component={HomePage}
+            title={Routers.DEFAULT.title}
+          />
         }
       />
 
       <Route 
         path={Routers.HOME.path} 
         element={
-          <ProtectedRouter component={
-            <HomePage title={Routers.HOME.title}/>
-          }/>
+          <ProtectedRouter 
+            component={HomePage}
+            title={Routers.HOME.title}
+          />
         }
       />
 
