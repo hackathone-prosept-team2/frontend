@@ -1,0 +1,65 @@
+.app {
+  background-color: #fff;
+  font-family: 'DIN Pro', 'Arial', 'sans-serif';
+  min-width: 320px;
+  min-height: 100vh;
+  color: #333;
+  margin: 0;
+}
+
+.container {
+  background: linear-gradient(90deg, rgba(56,164,58,1) 0%, rgba(0,183,234,1) 100%);
+  border-radius: 25px;
+  box-sizing: border-box;
+  height: 56px;
+  margin: 30px 30px 0 0;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border: 3px solid transparent;
+  border-radius: 25px;
+  background: #FFF;
+  background-clip: padding-box;
+  width: 150px;
+  height: 35px;
+  padding: 8px;
+}
+
+.link {
+  font-size: 18px;
+  color: #222;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+  cursor: pointer;
+}
+
+.links:hover {
+  background: linear-gradient(90deg, rgba(56,164,58,1) 0%, rgba(0,183,234,1) 100%);
+}
+
+.btn {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: linear-gradient(90deg, rgba(56,164,58,1) 1%, rgba(0,183,234,1) 100%);
+  border: none;
+  border-radius: 40px;
+  width: 300px;
+  height: 60px;
+  margin: 75px 0 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: .5;
+}
+

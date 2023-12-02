@@ -1,0 +1,6 @@
+.main__container {
+  display: flex;
+  column-gap: 100px;
+  justify-content: space-between;
+}
+

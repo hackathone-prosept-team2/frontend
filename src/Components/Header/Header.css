@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 100px;
+}
+
+.header__logo {
+  background-image: url("../../image/header__logo.svg");
+  width: 140px;
+  height: 110px;
+  margin: 15px 0 0 30px;
+  cursor: pointer;
+}
+
+.header__logo:hover {
+  opacity: .5;
+}

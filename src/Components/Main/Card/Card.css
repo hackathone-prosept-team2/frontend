@@ -1,0 +1,39 @@
+.card {
+  max-width: 60%;
+  margin: 50px 100px 50px 0;
+}
+
+.card__title {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-bottom: 2px #363535 solid;
+  margin: 0 0 25px;
+}
+
+.card__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__subtitle {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0 0 25px 0;
+}
+
+.card__image {
+  width: 30%;
+  height: 30%;
+}
+
+.card__price {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 20px 0;
+}

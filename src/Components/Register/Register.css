@@ -1,0 +1,69 @@
+.register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 75px auto;
+}
+
+.register__title {
+  color: rgb(56, 164, 58);
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.register__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register__fieldset {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  border: none;
+  padding: 0;
+}
+
+.register__label {
+  color: #5a6c77;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 50px 0 5px 5px;
+}
+
+.register__input {
+  border: 1px solid #ccd5db;
+  background: #f8fafc;
+  height: 38px;
+  outline: none;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 15px;
+  margin: 0;
+}
+
+.register__text {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.register__link {
+  background: linear-gradient(90deg, rgba(56,164,58,1) 0%, rgba(0,183,234,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.register__link:hover {
+  opacity: .5;
+}
