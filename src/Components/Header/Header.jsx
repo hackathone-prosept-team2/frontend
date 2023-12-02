@@ -1,27 +1,19 @@
-import { Link, useLocation } from 'react-router-dom';
-import { Logotype } from "Ui-Kit"
+import { useSelector } from "react-redux" 
+import { Link } from 'react-router-dom';
+import { Logotype, Button } from "Ui-Kit"
 
 function Header() {
-  const location = useLocation().pathname;
-
+  const { isAuthenticated } = useSelector((state) => state.auth)
+  
   return (
     <header className="header">
       <Link to='/'>
-        <Logotype />
+        <Logotype/>
       </Link>
-      <div className="container">
-        <div className="links">
-          {location === '/users/create/' &&
-            <Link to='/users/login/' className="link">Войти</Link>}
-          {location === '/users/login/' &&
-            <Link to='/users/create/' className="link">Регистрация</Link>}
-          {location === '/' &&
-            <Link to='/logout' className="link">Выйти</Link>}
-          {location === '/logout' &&
-            <Link to='/users/login/' className="link">Войти</Link>}
-        </div>
-      </div>
-
+      
+      { 
+        isAuthenticated ? <Button name="Выйти"/> : null
+      }
     </header>
   )
 }
