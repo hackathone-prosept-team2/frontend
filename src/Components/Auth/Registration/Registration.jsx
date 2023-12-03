@@ -1,5 +1,6 @@
-import {Input} from "Ui-Kit"
-import { Button } from "Ui-Kit"
+import {Input, Button} from "Ui-Kit"
+
+import "../Auth.css"
 
 export const Registration = () => {
 
