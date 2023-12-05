@@ -1,24 +1,27 @@
-import { Link, useLocation } from 'react-router-dom';
+import { useDispatch, useSelector } from "react-redux" 
+import { Link } from 'react-router-dom';
+import { Logotype, Button } from "Ui-Kit"
+import { logout } from "Features"
 
 function Header() {
-  const location = useLocation().pathname;
+  const dispatch = useDispatch()
+  const { auth } = useSelector((state) => state)
+  console.log(auth)
+  
+  const handlerLogout = async () => {
+    console.log('1111')
+    await dispatch(logout())
+  }
 
   return (
     <header className="header">
-      <Link to='/' className="header__logo"></Link>
-      <div className="container">
-        <div className="links">
-          {location === '/users/create/' &&
-            <Link to='/users/login/' className="link">Войти</Link>}
-          {location === '/users/login/' &&
-            <Link to='/users/create/' className="link">Регистрация</Link>}
-          {location === '/' &&
-            <Link to='/logout' className="link">Выйти</Link>}
-          {location === '/logout' &&
-            <Link to='/users/login/' className="link">Войти</Link>}
-        </div>
-      </div>
-
+      <Link to='/'>
+        <Logotype/>
+      </Link>
+      
+      { 
+        auth.isAuthenticated ? <Button name="Выйти" onClick={handlerLogout} /> : null
+      }
     </header>
   )
 }

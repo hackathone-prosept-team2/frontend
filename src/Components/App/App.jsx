@@ -1,18 +1,55 @@
-import Register from '../Register/Register.jsx';
-import Main from '../Main/Main.jsx';
-import Footer from '../Footer/Footer.jsx';
-import { useChangeTitle } from 'Hooks';
+import { useDispatch } from 'react-redux';
+import { AuthPage, HomePage, NotFoundPage } from 'Pages';
+import { ProtectedRouter } from 'Components';
+import { Routes, Route } from "react-router-dom"
+import { useEffect } from 'react';
+import { tokenCheck } from 'Features';
+import Routers from "Routers"
 
 function App() {
-  // TODO: Временно
-  useChangeTitle('Точка входа')
+  const dispatch = useDispatch()
   
-  return (
-    <div className="app">
-      <Main/>
+  useEffect(() => {
+    dispatch(tokenCheck())
+  }, [dispatch])
 
-      <Footer/>
-    </div>
+  return (
+    <Routes>
+      <Route
+        path={Routers.DEFAULT.path}
+        element={
+          <ProtectedRouter
+            component={HomePage}
+            title={Routers.DEFAULT.title}
+          />
+        }
+      />
+
+      <Route
+        path={Routers.HOME.path}
+        element={
+          <ProtectedRouter
+            component={HomePage}
+            title={Routers.HOME.title}
+          />
+        }
+      />
+
+      <Route
+        path={Routers.AUTH_SIGNIN.path}
+        element={<AuthPage title={Routers.AUTH_SIGNIN.title} />}
+      />
+
+      <Route
+        path={Routers.AUTH_SIGNUP.path}
+        element={<AuthPage title={Routers.AUTH_SIGNUP.title} />}
+      />
+
+      <Route
+        path={Routers.NOT_FOUND.path}
+        element={<NotFoundPage title={Routers.NOT_FOUND.title} />}
+      />
+    </Routes>
   )
 }
 
