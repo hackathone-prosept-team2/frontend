@@ -2,9 +2,8 @@
   background: linear-gradient(90deg, rgba(56,164,58,1) 0%, rgba(0,183,234,1) 100%);
   border-radius: 25px;
   box-sizing: border-box;
-  max-width: 169px;
-  height: 48px;
-  margin: 30px 30px 0 0;
+  max-width: 179px;
+  margin: 25px auto;
 }
 
 .links {
@@ -16,31 +15,23 @@
   border-radius: 25px;
   background: #FFF;
   background-clip: padding-box;
-  height: 48px;
-  padding: 0;
-}
-
-.links:hover {
-  background: linear-gradient(90deg, rgba(56,164,58,1) 0%, rgba(0,183,234,1) 100%);
 }
 
 .btn {
-  color: #FFFFFF;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  background: linear-gradient(90deg, rgba(56,164,58,1) 1%, rgba(0,183,234,1) 100%);
+  background: #FFFFFF;
   border: none;
-  border-radius: 25px;
-  width: 169px;
-  height: 48px;
-  padding: 0;
-  margin: 14px 0 20px;
+  border-radius: 22px;
+  min-width: 174px;
+  height: 50px;
+  padding: 10px;
   cursor: pointer;
 }
 
 .btn:hover {
-  opacity: .5;
-  height: 40px;
+  color: #FFFFFF;
+  background: linear-gradient(90deg, rgba(56,164,58,1) 0%, rgba(0,183,234,1) 100%);
 }
