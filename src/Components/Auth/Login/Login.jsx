@@ -1,16 +1,32 @@
+import { useEffect } from "react"
 import { Input, Button } from "Ui-Kit"
 import { useForm } from "react-hook-form"
+import { useDispatch, useSelector } from "react-redux"
+import { login as signIn } from "Features"
+import { useNavigate } from "react-router-dom"
 
 import "../Auth.css"
 
 export const Login = () => {
+  const dispatch = useDispatch()
+  const navigate = useNavigate();
+  const { isAuthenticated } = useSelector((state)=> state.auth)
   const {
     register,
     handleSubmit,
     formState: { errors },
   } = useForm()
 
-  const onSubmit = (data) => console.log(data)
+  useEffect(()=>{
+    if (isAuthenticated) {
+       navigate('/');
+    } 
+  }, [isAuthenticated, navigate])
+  
+  const onSubmit = async (dataLogin) => {
+    await dispatch(signIn(dataLogin)) 
+
+  }
 
   return (
     <form className="Auth__Form" onSubmit={handleSubmit(onSubmit)}>
@@ -18,7 +34,7 @@ export const Login = () => {
         label="Логин" 
         type="text" 
         autoComplete="username"
-        register={{...register("login")}}
+        register={{...register("email")}}
       />
 
       <Input 
