@@ -31,5 +31,6 @@ RUN npm ci
 # Копируем собранные файлы из предыдущего образа
 COPY --from=node18 /app/build ./build
 
-# Ваша команда запуска приложения, например:
-CMD ["npm", "build"]
+RUN npm run build
+
+CMD cp -r build result_build
