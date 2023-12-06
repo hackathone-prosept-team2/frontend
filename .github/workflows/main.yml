@@ -41,6 +41,6 @@ jobs:
 
             sudo docker-compose down
             sudo docker rmi ${{ secrets.DOCKER_USERNAME }}/prosept_front
-            sudo rm -r frontend
+            sudo rm -r ../frontend
             sudo docker pull ${{ secrets.DOCKER_USERNAME }}/prosept_front:latest
             sudo docker-compose up -d --build
