@@ -1,6 +1,5 @@
-import App from "./App/App"
-
-
-export {
-    App,
-}
+export { default as App } from "./App/App"
+export { default as Auth } from "./Auth/Auth"
+export { default as Header } from "./Header/Header"
+export { default as Footer } from "./Footer/Footer"
+export { default as ProtectedRouter } from "./ProtectedRoute/ProtectedRoute"

@@ -1,0 +1,37 @@
+.container {
+  background: linear-gradient(90deg, rgba(56,164,58,1) 0%, rgba(0,183,234,1) 100%);
+  border-radius: 25px;
+  box-sizing: border-box;
+  max-width: 179px;
+  margin: 25px auto;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border: 3px solid transparent;
+  border-radius: 25px;
+  background: #FFF;
+  background-clip: padding-box;
+}
+
+.btn {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: #FFFFFF;
+  border: none;
+  border-radius: 22px;
+  min-width: 174px;
+  height: 50px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #FFFFFF;
+  background: linear-gradient(90deg, rgba(56,164,58,1) 0%, rgba(0,183,234,1) 100%);
+}
