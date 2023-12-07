@@ -2,7 +2,8 @@ import { configureStore } from '@reduxjs/toolkit';
 import { 
   authReducer, 
   pricesReduser, 
-  dealersReducer 
+  dealersReducer, 
+  keysReduser
 } from 'Features';
 
 const store = configureStore({
@@ -10,6 +11,7 @@ const store = configureStore({
     auth: authReducer,
     prices: pricesReduser,
     dealers: dealersReducer,
+    keys: keysReduser,
   },
 });
 
