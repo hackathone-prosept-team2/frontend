@@ -15,8 +15,8 @@ export { default as keysService } from "./Keys/keysService"
 
 // Prices
 export { default as pricesService } from "./Prices/pricesService"
-// export {  } from "./Prices/pricesSlice"
-// export { dafault as pricesReduser } from "./Prices/pricesSlice"
+export { deletePrices, addPrices } from "./Prices/pricesSlice"
+export { default as pricesReduser } from "./Prices/pricesSlice"
 
 // Products
 export { default as productsService } from "./Products/productsService"
