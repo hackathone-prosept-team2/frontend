@@ -16,7 +16,7 @@ export const addPrices =  createAsyncThunk("prices/add", async(tunnkAPI)=> {
     }
 })
 
-export const deletePrices =  createAsyncThunk("prices/add", async(tunnkAPI)=> {
+export const deletePrices =  createAsyncThunk("prices/delete", async(tunnkAPI)=> {
     try {
       return await pricesService.addPrices()
     } catch (error) {
