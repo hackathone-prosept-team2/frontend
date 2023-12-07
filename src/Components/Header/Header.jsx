@@ -5,11 +5,9 @@ import { logout } from "Features"
 
 function Header() {
   const dispatch = useDispatch()
-  const { auth } = useSelector((state) => state)
-  console.log(auth)
+  const { isAuthenticated } = useSelector((state) => state.auth)
   
   const handlerLogout = async () => {
-    console.log('1111')
     await dispatch(logout())
   }
 
@@ -20,7 +18,7 @@ function Header() {
       </Link>
       
       { 
-        auth.isAuthenticated ? <Button name="Выйти" onClick={handlerLogout} /> : null
+        isAuthenticated ? <Button name="Выйти" onClick={handlerLogout} /> : null
       }
     </header>
   )
