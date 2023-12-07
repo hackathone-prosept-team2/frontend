@@ -5,8 +5,8 @@ export { default as authService } from "./Auth/authService"
 
 // Dealers
 export { default as dealersService } from "./Dealers/dealersServices"
-// export {  } from "./Dealers/dealersSlice"
-// export { dafault as dealersReducer } from "./Dealers/dealersSlice"
+export { dealersList, dealersListProsept, delerRetrieve } from "./Dealers/dealersSlice"
+export { default as dealersReducer } from "./Dealers/dealersSlice"
 
 // Keys
 export { default as keysService } from "./Keys/keysService"
