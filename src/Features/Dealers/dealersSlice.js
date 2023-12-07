@@ -8,3 +8,12 @@ const initialState = {
     isSuccess: false,
     message: "",
 }
+
+const dealersSlice = createSlice({
+    name: "dealers",
+    initialState,
+    reducers: {},
+    extraReducers: (builder) => { return null }
+})
+  
+export default dealersSlice.reducer

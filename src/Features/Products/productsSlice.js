@@ -8,3 +8,12 @@ const initialState = {
     isSuccess: false,
     message: "",
   }
+
+  const productsSlice = createSlice({
+    name: "products",
+    initialState,
+    reducers: {},
+    extraReducers: (builder) => { return null }
+})
+  
+export default productsSlice.reducer

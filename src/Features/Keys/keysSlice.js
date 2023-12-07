@@ -8,3 +8,12 @@ const initialState = {
     isSuccess: false,
     message: "",
   }
+
+const keysSlice = createSlice({
+    name: "keys",
+    initialState,
+    reducers: {},
+    extraReducers: (builder) => { return null }
+})
+  
+export default keysSlice.reducer

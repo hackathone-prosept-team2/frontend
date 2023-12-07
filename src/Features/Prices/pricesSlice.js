@@ -7,3 +7,12 @@ const initialState = {
     isSuccess: false,
     message: "",
 }
+
+const pricesSlice = createSlice({
+    name: "prices",
+    initialState,
+    reducers: {},
+    extraReducers: (builder) => { return null }
+})
+  
+export default pricesSlice.reducer
