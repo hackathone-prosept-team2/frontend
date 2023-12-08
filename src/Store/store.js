@@ -3,8 +3,9 @@ import {
   authReducer, 
   pricesReduser, 
   dealersReducer, 
-  keysReduser
-} from 'Features';
+  keysReduser,
+  productsReduser,
+} from 'Features'
 
 const store = configureStore({
   reducer: {
@@ -12,6 +13,7 @@ const store = configureStore({
     prices: pricesReduser,
     dealers: dealersReducer,
     keys: keysReduser,
+    products: productsReduser
   },
 });
 
