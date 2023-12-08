@@ -27,5 +27,5 @@ export { default as pricesReduser } from "./Prices/pricesSlice"
 
 // Products
 export { default as productsService } from "./Products/productsService"
-export {  } from "./Products/productsSlice"
+export { getProductAll, getProductId } from "./Products/productsSlice"
 export { default as productsReduser } from "./Products/productsSlice"
