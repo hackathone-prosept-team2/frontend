@@ -35,7 +35,6 @@ export const tokenCheck = createAsyncThunk("auth/tokenCheck", async(tunnkAPI) =>
 })
 
 export const logout = createAsyncThunk("auth/logout", async(tunnkAPI) =>{
-  console.log(1)
   try {
     return await authService.logout()
   } catch (error) {

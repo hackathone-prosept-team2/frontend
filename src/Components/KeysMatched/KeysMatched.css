@@ -1,0 +1,30 @@
+.keysMatched {
+  margin: 30px 100px;
+}
+
+
+.keys__container {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.keys__btn {
+  border-radius: 0 12px 12px 0;
+  width: 150px;
+  height: 40px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.keys__btn:hover {
+  opacity: 1;
+  color: #fff;
+  background: rgba(56,164,58,1);
+}
+
+.keys__container-btn {
+  width: 200px;
+  height: 40px;
+  margin: 30px 20px;
+}

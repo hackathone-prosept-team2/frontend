@@ -10,9 +10,12 @@
 @import url(./Components/Register/Register.css);
 
 @import url(./Components/Main/Main.css);
-@import url(./Components/Main/Form/Form.css);
-@import url(./Components/Main/List/List.css);
-@import url(./Components/Main/Card/Card.css);
+@import url(./Components/Dealers/Dealers.css);
+@import url(./Components/DealersReport/DealersReport.css);
+@import url(./Components/Products/Products.css);
+@import url(./Components/ProductID/ProductID.css);
+@import url(./Components/Key/Key.css);
+@import url(./Components/KeysMatched/KeysMatched.css);
 @import url(./Pages/NotFoundPage/NotFoundPage.css);
 
 @import url(./Components/Footer/Footer.css);

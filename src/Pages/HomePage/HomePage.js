@@ -1,16 +1,16 @@
-import { Footer, Header } from "Components"
+import { Footer, Header, Main } from "Components"
 import { useChangeTitle } from "Hooks"
 
 const HomePage = ({ title }) => {
-    useChangeTitle(title)
-    
-    return (
-        <>
-            <Header />
-            content zone
-            <Footer />
-        </>
-    )
+  useChangeTitle(title)
+
+  return (
+    <>
+      <Header/>
+      <Main/>
+      <Footer/>
+    </>
+  )
 }
 
 export default HomePage

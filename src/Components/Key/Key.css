@@ -1,0 +1,12 @@
+.key {
+  margin: 30px 100px;
+}
+
+.key__title {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-bottom: 2px #363535 solid;
+  margin: 0 0 15px;
+}

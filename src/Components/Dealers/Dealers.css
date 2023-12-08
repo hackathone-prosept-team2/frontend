@@ -1,10 +1,9 @@
-.list {
-  max-width: 40%;
-  margin: 0 0 0 100px;
+.dealers {
+  margin: 30px 100px;
 }
 
-.list__title {
-  font-size: 18px;
+.dealers__title {
+  font-size: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -12,13 +11,13 @@
   margin: 0 0 15px;
 }
 
-.list__container {
+.dealers__container {
   display: flex;
   column-gap: 30px;
 }
 
-.list__subtitle {
-  font-size: 16px;
+.dealers__subtitle {
+  font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -26,11 +25,17 @@
   padding: 0;
 }
 
-.list__item {
-  font-size: 14px;
+.dealers__item {
+  font-size: 18px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   list-style-type: none;
   margin: 10px 0;
+}
+
+.dealers__link {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
 }

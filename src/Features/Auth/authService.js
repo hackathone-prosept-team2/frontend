@@ -1,8 +1,6 @@
 import axios from "axios"
 import { API_URL, getDataFromLocalStorage } from "Utils"
 
-
-console.log()
 const login = async ({ email, password }) => {
   const tokenData = await axios.post(`${API_URL}/auth/token/login/`, {
     email,
@@ -34,7 +32,6 @@ const signUp = async ({ email, password }) => {
 }
 
 const logout = async () => {
-  console.log("2222")
    const res = await axios.post(`${API_URL}/auth/token/logout/`, {
       headers: { Authorization: `Token ${getDataFromLocalStorage("user")?.auth_token}` },
    })
